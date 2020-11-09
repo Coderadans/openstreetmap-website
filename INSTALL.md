@@ -222,6 +222,9 @@ This test will take a few minutes, reporting tests run, assertions, and any erro
 
 The unit tests may output parser errors related to "Attribute lat redefined." These can be ignored.
 
+Also, users have reported test:db errors related to yarn not installing correctly.  You may have to reinstall yarn manually to get test:db to run error free.
+
+
 ### Starting the server
 
 Rails comes with a built-in webserver, so that you can test on your own machine without needing a server. Run
